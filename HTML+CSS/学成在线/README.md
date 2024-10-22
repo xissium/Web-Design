@@ -64,3 +64,10 @@ logo 功能：
 实现方法：
 
 * 标签结构：.right > h3 + .content
+
+## 精品推荐（recommend）
+
+实现方法：
+
+* 标签结构：.recommend > h3 + ul + a.modify
+* 布局思路：Flex 布局
