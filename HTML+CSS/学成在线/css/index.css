@@ -280,7 +280,6 @@ body {
     margin-bottom: 14px;
     width: 228px;
     height: 271px;
-    background: pink;
 }
 
 .bd li .pic {
@@ -313,4 +312,36 @@ body {
 
 .bd li .text p i {
     font-style: normal;
+}
+
+/* 前端开发工程师区域 */
+.hd ul {
+    display: flex;
+}
+
+.hd li {
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.hd li .active {
+    color: #00a4ff;
+}
+
+.bd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd .left {
+    width: 228px;
+}
+
+.bd .right {
+    width: 957px;
+}
+
+.bd .right .top {
+    margin-bottom: 15px;
+    height: 100px;
 }
