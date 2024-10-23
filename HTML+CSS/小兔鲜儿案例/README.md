@@ -45,3 +45,5 @@ wrapper 版心宽度：1240px
 ## 头部（header）
 
 结构：.header > **logo** + **导航**（nav）+ **搜索**（search）+ **购物车**（cart）
+
+## 底部（footer）
