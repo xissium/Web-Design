@@ -71,3 +71,10 @@ logo 功能：
 
 * 标签结构：.recommend > h3 + ul + a.modify
 * 布局思路：Flex 布局
+
+## 推荐课程（course）
+
+实现方法：
+
+* 标签结构：.hd + .bd
+* 布局思路：盒子模型
