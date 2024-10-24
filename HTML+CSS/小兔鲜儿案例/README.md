@@ -55,3 +55,5 @@ wrapper 版心宽度：1240px
 ## 新鲜好物区域（goods）
 
 结构：标题（title）+ 内容（bd）（多区域样式共用）
+
+## 人气推荐区域（recommend）

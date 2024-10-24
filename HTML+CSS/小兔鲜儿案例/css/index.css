@@ -161,3 +161,12 @@
 .goods .bd p span {
     font-size: 22px;
 }
+
+/* 人气推荐 */
+.recommend .bd li {
+    background-color: #fff;
+}
+
+.recommend .bd p {
+    color: #a1a1a1;
+}
