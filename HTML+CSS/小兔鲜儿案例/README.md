@@ -36,16 +36,22 @@ Favicon 图标：网页图标，出现在**浏览器标题栏**，增加网站�
 
 wrapper 版心宽度：1240px
 
-## 快捷导航（shortcut）
+## 快捷导航区域（shortcut）
 
 结构：通栏 > 版心 > 导航 ul
 
 布局：flex-end
 
-## 头部（header）
+## 头部区域（header）
 
 结构：.header > **logo** + **导航**（nav）+ **搜索**（search）+ **购物车**（cart）
 
-## banner
+## 底部区域（footer）
+
+## banner区域
 
 结构：通栏 > 版心 > 轮播图（ul.pic） + 侧导航（subnav > ul） + 圆点指示器（ol）
+
+## 新鲜好物区域（goods）
+
+结构：标题（title）+ 内容（bd）（多区域样式共用）

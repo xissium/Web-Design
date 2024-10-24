@@ -91,3 +91,73 @@
 .banner ol .active i {
     background-color: #fff;
 }
+
+/* 新鲜好物 */
+/* 标题 - 公共样式 */
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+    /* background-color: pink; */
+}
+
+.title .left {
+    display: flex;
+}
+
+.title .left h3 {
+    margin-right: 35px;
+    font-size: 30px;
+}
+
+.title .left p {
+    align-self: flex-end;
+    color: #a1a1a1;
+}
+
+.title .right .more {
+    line-height: 42px;
+    color: #a1a1a1;
+}
+
+.title .right .more .iconfont {
+    margin-left: 10px;
+}
+
+/* 内容 - 公共样式 */
+.bd ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd li {
+    width: 304px;
+    height: 404px;
+    background-color: #eef9f4;
+}
+
+.bd li .pic {
+    width: 304px;
+    height: 304px;
+}
+
+.bd li .text {
+    text-align: center;
+}
+
+.bd li h4 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.goods .bd p {
+    font-size: 18px;
+    color: #aa2113;
+}
+
+.goods .bd p span {
+    font-size: 22px;
+}
