@@ -46,4 +46,6 @@ wrapper 版心宽度：1240px
 
 结构：.header > **logo** + **导航**（nav）+ **搜索**（search）+ **购物车**（cart）
 
-## 底部（footer）
+## banner
+
+结构：通栏 > 版心 > 轮播图（ul.pic） + 侧导航（subnav > ul） + 圆点指示器（ol）
