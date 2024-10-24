@@ -170,3 +170,181 @@
 .recommend .bd p {
     color: #a1a1a1;
 }
+
+/* 热门品牌 */
+.brand {
+    margin-top: 60px;
+    height: 468px;
+    background-color: #f5f5f5;
+}
+
+.brand .wrapper {
+    overflow: hidden;
+    height: 468px;
+    /* background-color: pink; */
+}
+
+.brand .title {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.brand .button {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+
+    /* 让 a 在一行显示，宽高生效 */
+    display: flex;
+}
+
+.brand .button a {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.brand .button .prev {
+    background-color: #ddd;
+}
+
+.brand .button .next {
+    margin-left: 12px;
+    background-color: #00BE9A;
+}
+
+.brand .bd li {
+    width: 244px;
+    height: 306px;
+}
+
+/* 生鲜 */
+.fresh .title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.title .right {
+    display: flex;
+}
+
+.title .right ul {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 58px;
+}
+
+.title .right ul a {
+    display: block;
+    margin-left: 6px;
+    padding: 0 7px;
+    height: 20px;
+    /* background-color: pink; */
+    line-height: 20px;
+}
+
+.title .right ul .active {
+    background-color: #00BE9A;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .left {
+    width: 248px;
+    height: 610px;
+    /* background-color: pink; */
+}
+
+.content .right {
+    width: 968px;
+    height: 610px;
+    /* background-color: pink; */
+}
+
+.content .right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .right li {
+    position: relative;
+    padding: 10px 21px 0;
+    width: 242px;
+    height: 305px;
+    border: 2px solid #fff;
+    /* 隐藏绿色区域 cover */
+    overflow: hidden;
+}
+
+/* 产品内容 */
+.content .pic {
+    width: 200px;
+    height: 180px;
+}
+
+.content .info {
+    margin-top: 11px;
+    margin-bottom: 5px;
+    height: 60px;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.content .price {
+    color: #af2f22;
+}
+
+.content .price span {
+    font-size: 22px;
+}
+
+/* 产品底部绿色区域 */
+.content li .cover {
+    position: absolute;
+    left: 0;
+    /* bottom: 0; */
+    bottom: -86px;
+    padding-top: 11px;
+    width: 242px;
+    height: 80px;
+    background-color: #00BE9A;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.content .cover a:first-child {
+    font-size: 18px;
+}
+
+.content .cover a {
+    color: #fff;
+}
+
+.content .cover p {
+    margin: 3px auto 6px;
+    width: 120px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.content .cover a:last-child {
+    font-size: 13px;
+}
+
+.content .cover a:last-child .iconfont {
+    font-size: 13px;
+}
+
+.content .right li:hover .cover {
+    bottom: 0;
+}
+
+.content .right li:hover {
+    border: 2px solid #00BE9A;
+}
